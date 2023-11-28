@@ -1,5 +1,12 @@
+import PartsPage from "./components/PartsPage/PartsPage";
+import styles from "./App.module.scss";
+
 const App = () => {
-  return <></>;
+  return (
+    <main className={styles.main}>
+      <PartsPage />
+    </main>
+  );
 };
 
 export default App;
