@@ -8,7 +8,7 @@ interface PartDashboardProps {
 
 const PartDashboard = ({ data }: PartDashboardProps) => {
   return (
-    <section>
+    <section className={styles["part-wrapper"]}>
       {data.map((part, partIndex) => (
         <div key={partIndex}>
           <h1>{part.name}</h1>
