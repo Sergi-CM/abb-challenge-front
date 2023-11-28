@@ -4,4 +4,7 @@ export default {
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
+  moduleNameMapper: {
+    "\\.(css|scss|sass)$": "identity-obj-proxy",
+  },
 };
