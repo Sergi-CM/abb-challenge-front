@@ -1,0 +1,46 @@
+.feature-table {
+  background-color: #d2d2d2;
+
+  &__header {
+    padding: 2px 25px;
+    color: #fff;
+  }
+
+  .measurements-table {
+    padding: 20px 25px;
+    width: 100%;
+
+    th {
+      font-size: 1.1rem;
+    }
+
+    tr {
+      height: 30px;
+      border: 1px solid gray;
+    }
+
+    td {
+      text-align: center;
+    }
+
+    td:nth-child(1) {
+      text-align: left;
+    }
+
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
