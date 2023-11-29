@@ -1,10 +1,10 @@
-import PartsPage from "./components/PartsPage/PartsPage";
 import styles from "./App.module.scss";
+import PartDashboard from "./components/PartDashboard/PartDashboard";
 
 const App = () => {
   return (
     <main className={styles.main}>
-      <PartsPage />
+      <PartDashboard />
     </main>
   );
 };
